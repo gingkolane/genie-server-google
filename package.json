@@ -2,7 +2,9 @@
   "name": "stage-genie-server",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,10 @@
     "url": "https://github.com/gingkolane/stage-genie-server/issues"
   },
   "homepage": "https://github.com/gingkolane/stage-genie-server#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.6.0",
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.1.0"
+  }
 }
