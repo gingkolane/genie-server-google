@@ -1,0 +1,19 @@
+{
+  "name": "stage-genie-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gingkolane/stage-genie-server.git"
+  },
+  "author": "gingkolane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gingkolane/stage-genie-server/issues"
+  },
+  "homepage": "https://github.com/gingkolane/stage-genie-server#readme",
+  "description": ""
+}
